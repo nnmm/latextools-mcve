@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"file_exclude_patterns": [".gitignore"]
+		}
+	],
+	"settings" : {
+		// "TEXroot": "main.tex",
+		"tex_file_exts": [".tex", ".tikz"],
+		"builder_settings": {
+			"program": "xelatex",
+			"options": "--shell-escape",
+		},
+		"output_directory": "build",
+		"aux_directory": "build",
+		"copy_output_on_build": false,
+		"temp_files_exts": [".aux", ".bbl", ".blg", ".fdb_latexmk", ".fls", ".log", ".out", ".synctex.gz", ".run.xml", ".bcf", ".lot"]
+	}
+}
